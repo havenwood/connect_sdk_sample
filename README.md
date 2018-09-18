@@ -13,5 +13,26 @@ pip install -r test-requirements.txt
 nosetests ./test
 ```
 
+## Sample Python API usage
+Below is a sample to retreive locations from your account using Square's SDK.
+```python
+from __future__ import print_function
+
+import squareconnect
+from squareconnect.rest import ApiException
+from squareconnect.apis.locations_api import LocationsApi
+
+# create an instance of the Location API class
+api_instance = LocationsApi()
+# setup authorization
+api_instance.api_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+
+try:
+    # ListLocations
+    api_response = api_instance.list_locations()
+    print (api_response.locations)
+except ApiException as e:
+    print ('Exception when calling LocationApi->list_locations: %s\n' % e)
+
 # Examples
 `examples` folder contains simple examples from https://github.com/square/connect-api-examples which uses our SDKs.
