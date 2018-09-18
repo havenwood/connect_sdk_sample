@@ -1,0 +1,14 @@
+{
+  "US-Prod": {
+    "email": "YOUR_SQUARE_EMAIL@squareup.com",
+    "access_token": "REPLACE_ME",
+    "location_id": "REPLACE_ME",
+    "application_id": "REPLACE_ME"
+  },
+  "US-Prod-Sandbox": {
+    "email": "YOUR_SQUARE_EMAIL@squareup.com",
+    "access_token": "REPLACE_ME",
+    "location_id": "REPLACE_ME",
+    "application_id": "REPLACE_ME"
+  }
+}
