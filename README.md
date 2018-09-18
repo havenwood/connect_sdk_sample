@@ -34,5 +34,7 @@ try:
 except ApiException as e:
     print ('Exception when calling LocationApi->list_locations: %s\n' % e)
 
+```
+
 # Examples
 `examples` folder contains simple examples from https://github.com/square/connect-api-examples which uses our SDKs.
