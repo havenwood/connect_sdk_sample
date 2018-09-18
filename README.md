@@ -12,3 +12,6 @@ pip install -r requirements.txt
 pip install -r test-requirements.txt
 nosetests ./test
 ```
+
+# Examples
+`examples` folder contains simple examples from https://github.com/square/connect-api-examples which uses our SDKs.
