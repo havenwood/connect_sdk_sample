@@ -1,12 +1,16 @@
-# Square Connect Ruby SDK Extracted Tests
-These are just over 1k tests extracted from the Ruby SDK that don't require credentials.
+These are a few hundred basic specs extracted from the Ruby SDK.
 
-Install Test Dependencies
+Install Test Dependencies:
 ```sh
 bundle
 ```
 
-Run the Tests
+Export your Square Connect Token:
 ```sh
-rake
+export SQUARE_CONNECT_TOKEN="Your token here..."
+```
+
+Run the Tests:
+```sh
+bundle exec rake
 ```
